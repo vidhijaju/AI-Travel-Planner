@@ -24,7 +24,7 @@ A Python Jupyter Notebook that generates a complete travel plan for any country 
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
+git clone https://github.com/vidhijaju/AI-Travel-Planner.git
 cd <your-repo>
 pip install google-genai requests folium jupyter
 ```
