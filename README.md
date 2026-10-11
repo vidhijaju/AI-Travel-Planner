@@ -6,8 +6,6 @@ A Python Jupyter Notebook that generates a complete travel plan for any country 
 
 - Country overview
 - 8+ famous places with descriptions, activities, best time to visit, and cost
-- Place photos pulled from Wikipedia
-- Interactive map of the places (Folium)
 - Day-by-day itinerary (morning, afternoon, evening, food, transport, cost)
 - Must-try local food
 - Budget breakdown (hotel, food, transport, activities, shopping, emergency)
@@ -17,8 +15,6 @@ A Python Jupyter Notebook that generates a complete travel plan for any country 
 
 - Python 3
 - Google Gemini API (`google-genai`)
-- Wikipedia API (`requests`)
-- Folium
 - Jupyter Notebook
 
 ## Installation
@@ -57,18 +53,8 @@ API_KEY = os.environ["GEMINI_API_KEY"]
 ## How It Works
 
 1. The notebook sends a prompt to Gemini asking for a travel plan in JSON format.
-2. It looks up an image for each famous place on Wikipedia.
-3. It plots the places on a map and connects them with a line.
-4. It prints the itinerary, food, budget, and tips.
+2. It prints the itinerary, food, budget, and tips.
 
 ## Limitations
 
 - Plans are AI-generated, so check prices, opening hours, and locations before you travel.
-- Some places may not have a Wikipedia image.
-
-## Future Improvements
-
-- Currency conversion
-- Weather forecast
-- Export plan to PDF
-- Web app version
